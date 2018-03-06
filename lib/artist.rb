@@ -16,6 +16,7 @@ end
   end
 
   def genres
-    self.songs.map {|song| song.genre}
+    self.songs.map do |song| song.genre
+    end
   end
 end
